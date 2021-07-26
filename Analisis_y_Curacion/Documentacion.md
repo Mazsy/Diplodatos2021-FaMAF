@@ -36,10 +36,8 @@
 - Seleccionar los “k” elementos más cercanos (con menor distancia, según la función que se use)
 - Realizar una “votación de mayoría” entre los k puntos.
 
-7. Se logró usar fit en PCA, para transformar valores antes realizados.
+7. Aplicamos PCA (de sklearn) para reducir la dimensionalidad de la matriz para obtener 20 componentes principales (n = 20) y nos quedamos con los primeros 5 que eran los más representativos.
 
 	
   ### Datos aumentados
-  1. Se agregan las 5 primeras columnas obtenidas a través del
-     método de PCA, aplicado sobre el conjunto de datos
-     totalmente procesado.
+  1. Se agregan las 5 primeras columnas obtenidas a través del método de PCA, aplicado sobre el conjunto de datos totalmente procesado.
